@@ -1,0 +1,131 @@
+body {
+    width: 400px;
+    border-radius: 20px;
+    margin: 0;
+    padding: 0 0 10px 0;
+    box-sizing: border-box;
+    background: linear-gradient(160.09deg, rgba(12, 25, 97, 0.94) 19.41%, rgba(5, 12, 49, 0.94) 76.65%);
+    font-family: 'Inter', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.main-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.logo {
+    width: 50%;
+    transition: all .2s ease-in-out;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+}
+
+.card-box {
+    color: rgba(0, 0, 0, 0.87);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 85%;
+    overflow-wrap: break-word;
+    background: linear-gradient(160.09deg, rgba(11, 21, 75, 0.94) 19.41%, rgba(6, 11, 40, 0.94) 76.65%);
+    border-radius: 1.25rem;
+    padding: 5px 12px;
+    margin: 10px auto;
+    transition: all .15s ease-in-out;
+}
+
+.card-box:hover{
+    transform: scale(1.03);
+    background: linear-gradient(160.09deg, rgba(14, 26, 90, 0.94) 19.41%, rgba(10, 20, 77, 0.94) 76.65%);
+}
+
+.card-box:hover .coin-image {
+    transform: rotate(8deg) scale(1.05);
+}
+
+.internal-box {
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.left-content {
+    flex-basis: 52%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 52%;
+}
+
+.right-content {
+    flex-basis: 48%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 48%;
+    text-align: end;
+}
+
+.coin-image {
+    width: 40px;
+    height: 40px;
+    display: inline;
+    transition: all .2s ease-in-out;
+}
+
+.coin-info {
+    display: flex;
+    align-items: center;
+}
+
+.coin-name {
+    line-height: .1;
+    color: white;
+    margin-left: 5px;
+}
+
+.coin-name h2 {
+    font-size: 18px;
+}
+
+.coin-name h4 {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+    color: grey;
+}
+
+.coin-numbers {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.coin-numbers h2 {
+    font-size: 18px;
+}
+
+.coin-numbers h4 {
+    font-size: 12px;
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+.green {
+    color: rgb(43, 255, 0);
+}
+
+.red {
+    color: red;
+}
+
+.donate-link a{
+    color: white;
+}
