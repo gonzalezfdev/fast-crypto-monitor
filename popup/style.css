@@ -126,6 +126,10 @@ body {
     color: red;
 }
 
-.donate-link a{
+#donate-link{
     color: white;
+}
+
+#contact-link{
+    color: grey;
 }
